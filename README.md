@@ -1,5 +1,5 @@
-# ab_testing
-Defining HLC Healthcare's Marketing Strategy with AB Testing
+# Defining HLC Healthcare's Marketing Strategy with AB Testing
+
 Hello there! We are going to try to define best marketing strategy of HLC Healthcare with AB Testing. First of all lets talk about what is AB Testing and what is used for?
 
 What is AB Test
