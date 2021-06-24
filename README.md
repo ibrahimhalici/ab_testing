@@ -7,3 +7,18 @@ AB testing also known as Independent Samples T Test is a way of demonstrating wh
 
 ## Problem
 HLC Healthcare sends e-mail and push notifications to its customers in different time to make sale and wants to know which method is better. Should HLC Healthcare sends e-mail or push notification in order to achive more successful marketing strategy. Both strategies cost equally and use same service provider.
+
+## Application of AB Test
+First we need to import needed libraries and data which has information of total_emails_send, total_notification_send, comebacks, customers_bought, profit
+```python
+df_email = pd.read_excel('../input/hlc-healthcare/hlc_healthcare.xlsx',sheet_name='Email Grubu',usecols=['mail_sayisi','geridonus','satin_alan_kisi','kazanc'])
+
+df_push = pd.read_excel('../input/hlc-healthcare/hlc_healthcare.xlsx',sheet_name='Push Notification Grubu',usecols=['bildirim_sayisi','geridonus','satin_alan_kisi','kazanc'])
+```
+* mail_sayisi = total_emails_send
+* geridonus = comeback
+* satin_alan_kisi = customers_bought
+* kazanc = profit
+* bildirim_sayisi = total_notification_send
+
+See more in code page.
